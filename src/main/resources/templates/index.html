@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Главный экран</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+<body>
+<style>
+    .example{
+        background: blue;
+    }
+</style>
+<a th:href="@{/WorkPage}"  class="btn btn-primary btn-lg btn-block">Стол менеджера</a>
+<div class="example" th:replace="footer :: footer"/>
+
+</body>
+</html>
